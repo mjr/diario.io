@@ -2,8 +2,8 @@
 
 Sistema de gerenciamento de diários/ponto.
 
-[![Build Status](https://travis-ci.org/mjr/eventex.svg?branch=master)](https://travis-ci.org/mjr/eventex)
-[![Code Health](https://landscape.io/github/mjr/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/mjr/eventex/master)
+[![Build Status](https://travis-ci.org/mjr/diario.io.svg?branch=master)](https://travis-ci.org/mjr/diario.io)
+[![Code Health](https://landscape.io/github/mjr/diario.io/master/landscape.svg?style=flat)](https://landscape.io/github/mjr/diario.io/master)
 
 ## Como desenvolver?
 
