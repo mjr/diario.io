@@ -12,7 +12,8 @@ Sistema de gerenciamento de diários/ponto.
 3. Ative o virtualenv.
 4. Instale as dependências.
 5. Crie e execute testes.
-6. Rode o projeto.
+6. Rode as migrações para criar as tabelas no banco de dados
+7. Rode o projeto.
 
 ```console
 git clone https://github.com/mjr/diario.io.git wdio
@@ -21,5 +22,6 @@ python -m venv .wdio
 source .wdio/bin/activate
 pip install -r requirements.txt
 python manage.py test
+python manage.py migrate
 python manage.py runserver
 ```
