@@ -1,8 +1,16 @@
-@font-face {
-    font-family: roboto;
+/*@font-face {
+    font-family: 'roboto';
     src: url(../fonts/Roboto-Ligth.ttf);
 }
 
-big-title{
-  font-family: "roboto";
+.big-title{
+  font-family: 'roboto';
+}*/
+
+.bt-cheguei{
+  text-align: center;
+  margin: 40px;
+}
+.bt-cheguei button {
+  font-size: 50px;
 }
