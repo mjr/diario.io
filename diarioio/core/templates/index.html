@@ -5,14 +5,13 @@
 Diário.IO
 {% endblock title %}
 
-
 {% block addcss %}
 <link href="{% static 'assets/css/style.css' %}" rel="stylesheet"/>
 {% endblock addcss %}
 
 {% block content %}
 <div class="card fluid">
-  <div class="content">
+  <div id="divCheguei" class="content">
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
         <h1 class="text-center big-title">Chegou?</h1>
@@ -20,11 +19,20 @@ Diário.IO
       </div>
     </div>
     <div class="row bt-cheguei">
-        <button class="btn btn-lg btn-wd">Cheguei!</button>
+        <button class="btn btn-lg btn-wd" onclick="chegar()">Cheguei!</button>
     </div>
   </div>
-  <div class="content">
-    
+  <div id="divObjetivos" class="content">
+
+    <form method="POST" action=".">
+      {% csrf_token %}
+      {{ form.as_ul }}
+      <input type="submit" value="OK" />
+    </form>
   </div>
 </div>
 {% endblock content %}
+
+{% block addjs %}
+<script src="{% static 'assets/js/js.js' %}"></script>
+{% endblock addjs %}

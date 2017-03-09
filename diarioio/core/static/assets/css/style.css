@@ -14,3 +14,13 @@
 .bt-cheguei button {
   font-size: 50px;
 }
+.icone-grande {
+  width: 100px;
+}
+#divObjetivos {
+  display: none;
+}
+#objetivos .row{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

@@ -112,19 +112,6 @@
             {% endblock content %}
           </div>
         </div>
-        <footer class="footer">
-          <div class="container-fluid">
-            <nav class="pull-left">
-              <ul>
-                <li>
-                  <a href="http://blog.creative-tim.com">
-                  Blog
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </footer>
       </div>
     </div>
   </body>
@@ -140,11 +127,7 @@
   <script src="{% static 'assets/js/sweetalert2.js' %}"></script>
   <!-- Paper Dashboard PRO Core javascript and methods for Demo purpose -->
   <script src="{% static 'assets/js/paper-dashboard.js' %}"></script>
+  {% block addjs %}
+  {% endblock addjs %}
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      demo.initOverviewDashboard();
-      demo.initCirclePercentage();
-    });
-  </script>
 </html>

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Diário.IO
+{% endblock title %}
+
+
+{% block addcss %}
+<link href="{% static 'assets/css/style.css' %}" rel="stylesheet"/>
+{% endblock addcss %}
+
+{% block content %}
+<div class="card fluid">
+  <div class="content">
+    <!--<div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <form method="#" action="#">
+          <div class="header">
+            <h2>Chegada</h2>
+          </div>
+          <div class="form-group" id="objetivos">
+            <div class="row">
+              <label class="col-md-2">Objetivos</label>
+              <button onclick="add_campo()" class="col-md-4 col-md-offset-2 btn btn-success btn-fill btn-wd">Adicionar Objetivo</button>
+            </div>
+            <div class="row">
+              <div class="col-md-10">
+                <input type="text" class="form-control" placeholder="Indique o objetivo do dia"></input>
+              </div>
+              <div class="col-md-2 icone-grande" onclick="remove_campo(this)">
+                <span class="ti-trash"></span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Materiais e Métodos</label>
+            <textarea class="form-control" placeholder="Informe os materiais e métodos" ></textarea>
+          </div>
+          <div class="form-group">
+            <label>Link para tarefa no HostedRedmine</label>
+            <input class="form-control" type="text" name="url" url="true">
+          </div>
+        </form>
+      </div>
+    </div>-->
+    <h1>Formulário válido</h1>
+  </div>
+</div>
+{% endblock content %}
+
+{% block addjs %}
+<script src="{% static 'assets/js/js.js' %}"></script>
+{% endblock addjs %}
